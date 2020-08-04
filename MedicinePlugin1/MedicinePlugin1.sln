@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution files", "_Solution files", "{DAD392D7-2877-4063-AFCC-EF63129F2571}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{7F1A3B35-DA00-49C6-808F-973DE64AD018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMemoAssistant.Plugins.MedicinePlugin1", "src\SuperMemoAssistant.Plugins.MedicinePlugin1\SuperMemoAssistant.Plugins.MedicinePlugin1.csproj", "{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3A82D9F7-6B85-49D7-8520-07334706C0E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperMemoAssistant.Plugins.MedicinePlugin1.Tests", "src\SuperMemoAssistant.Plugins.MedicinePlugin1.Tests\SuperMemoAssistant.Plugins.MedicinePlugin1.Tests.csproj", "{13766745-ADEB-49B4-B285-F2B0BAD885AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		1. Alpha (Debug)|Any CPU = 1. Alpha (Debug)|Any CPU
+		2. Beta (Release)|Any CPU = 2. Beta (Release)|Any CPU
+		3. Stable (Release)|Any CPU = 3. Stable (Release)|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.1. Alpha (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.1. Alpha (Debug)|Any CPU.Build.0 = Debug|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.2. Beta (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.2. Beta (Release)|Any CPU.Build.0 = Release|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.3. Stable (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.3. Stable (Release)|Any CPU.Build.0 = Release|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.1. Alpha (Debug)|Any CPU.ActiveCfg = Debug|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.1. Alpha (Debug)|Any CPU.Build.0 = Debug|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.2. Beta (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.2. Beta (Release)|Any CPU.Build.0 = Release|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.3. Stable (Release)|Any CPU.ActiveCfg = Release|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.3. Stable (Release)|Any CPU.Build.0 = Release|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EB216D4-8018-4FC0-94C1-67BCF8F962B5} = {7F1A3B35-DA00-49C6-808F-973DE64AD018}
+		{13766745-ADEB-49B4-B285-F2B0BAD885AA} = {3A82D9F7-6B85-49D7-8520-07334706C0E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC6CC406-643D-484B-A066-AACD15A2F4D3}
+	EndGlobalSection
+EndGlobal
